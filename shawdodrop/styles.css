@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+}
+
+.photo1,.photo2 {
+    width: 25 0px; /* Adjust the width as needed */
+    height: auto;
+    margin: 10px; /* Space between photos */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 8px; /* Optional rounded corners */
+}
+.photo1 {
+    box-shadow: 10px 7px 20px rgb(0, 255, 204);
+}
+.photo2{
+    filter: drop-shadow(10px 7px 5px rgb(0, 255, 204));
+}
